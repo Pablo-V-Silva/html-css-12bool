@@ -1,3 +1,24 @@
 body {
-    background-color: rgb(47, 47, 47);
+    background-color: rgb(200, 200, 200);
+}
+/* debug */
+.debug .row {
+    height: 100px;
+}
+/* /debug */
+.row {
+    border: 1px solid black;
+}
+
+.r-border {
+    border-right: 1px solid black;
+}
+
+/* COLORS */
+.lightred {
+    background-color: #FFC0CB;
+}
+
+.darkred {
+    background-color: #F07F80;
 }

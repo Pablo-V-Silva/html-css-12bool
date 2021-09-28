@@ -4,6 +4,16 @@
     padding: 0;
 }
 
+.d-flex {
+    display: flex;
+}
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
 .container {
     max-width: 90%;
     margin: 0 auto;
@@ -170,6 +180,40 @@
     margin-right: 100%;
 }
 
+/* UTILITY */
+.j-start {
+    justify-content: flex-start;
+}
+.j-center {
+    justify-content: center;
+}
+.j-end {
+    justify-content: flex-end;
+}
+
+.ai-start {
+    align-items: flex-start;
+}
+.ai-center {
+    align-items: center;
+}
+.ai-end {
+    align-items: flex-end;
+}
+
+.ta-left {
+    text-align: left;
+}
+.ta-center {
+    text-align: center;
+}
+.ta-right {
+    text-align: right;
+}
+
+.m-auto {
+    margin: 0 auto;
+}
 
 
 /* MEDIA QUARY
