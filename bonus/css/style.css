@@ -1,0 +1,42 @@
+body {
+    background-color: bisque;
+}
+
+[class^="col"] {
+    height: 120px;
+}
+
+/* colori
+**************************************************** */
+
+.darkred {
+    background-color: #DF1900;
+}
+
+.lightred {
+    background-color: #F53100;
+}
+
+.white {
+    background-color: white;
+}
+
+.yellow {
+    background-color: #FFCC23;
+}
+
+.orange {
+    background-color: #FF7C2A;
+}
+
+.black {
+    background-color: black;
+}
+
+.lightpink {
+    background-color: #FFE29C;
+}
+
+.pink {
+    background-color: #FEB485;
+}
