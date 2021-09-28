@@ -214,7 +214,13 @@
 .m-auto {
     margin: 0 auto;
 }
+.m-1rem {
+    margin: 1rem;
+}
 
+.p-1rem {
+    padding: 1rem;
+}
 
 /* MEDIA QUARY
 ***************************************************************** */
@@ -373,7 +379,7 @@
 }
 /* ************************************************** */
 
-@media screen and(min-width:768px) {
+@media screen and (min-width:768px) {
 .col-md {
     flex-grow: 1;
     flex-basis: 0;

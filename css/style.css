@@ -14,6 +14,17 @@ body {
     border-right: 1px solid black;
 }
 
+.border-w {
+    border: 1px solid white;
+}
+
+.border-w {
+    border: 1px solid white;
+}
+
+.nested {
+    height: 100%;
+}
 /* COLORS */
 .lightred {
     background-color: #FFC0CB;
